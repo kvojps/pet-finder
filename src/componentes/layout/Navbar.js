@@ -10,6 +10,7 @@ function NavBar() {
                 <Link to='/' className={styles.slogan}> <p>Pet Finder🐾</p> </Link>
                 <ul className={styles.list}>
                     <li><Link to="/animais">Animais</Link></li>
+                    <li><Link to="/contato">Contato</Link></li>
                     <li><Link to="/sobre">Sobre</Link></li>
                 </ul>
             </Container>

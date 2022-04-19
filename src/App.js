@@ -8,6 +8,7 @@ import Sobre from './componentes/paginas/Sobre'
 import Footer from './componentes/layout/Footer'
 import Navbar from './componentes/layout/Navbar'
 import Container from './componentes/layout/Container'
+import Contato from './componentes/paginas/Contato'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route exact path = "/" element ={<Home/>}></Route>
             <Route exact path = "/animais" element ={<Animais/>}></Route>
             <Route exact path = "/sobre" element ={<Sobre/>}></Route>
+            <Route exact path = "/contato" element ={<Contato/>}></Route>
           </Routes>
         </Container>
 
