@@ -10,6 +10,7 @@ import Navbar from './componentes/layout/Navbar'
 import Container from './componentes/layout/Container'
 import Contato from './componentes/paginas/Contato'
 import Login from './componentes/paginas/Login'
+import Cadastro from './componentes/paginas/Cadastro'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path = "/sobre" element ={<Sobre/>}></Route>
             <Route path = "/contato" element ={<Contato/>}></Route>
             <Route path = "/login" element ={<Login/>}></Route>
+            <Route path = "/cadastro" element ={<Cadastro/>}></Route>
           </Routes>
         </Container>
 
