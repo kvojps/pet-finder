@@ -6,9 +6,18 @@
 }
 
 .slogan {
+    display: flex;
     color: white;
     text-decoration: none;
     font-size: 20px;
+    align-items: center;
+}
+
+.slogan img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    
 }
 
 .list {

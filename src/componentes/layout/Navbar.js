@@ -1,5 +1,6 @@
 import Container from './Container'
 import styles from './assets/Navbar.module.css'
+import logo from '../../img/logo.png'
 
 import {Link} from 'react-router-dom'
 
@@ -7,7 +8,10 @@ function NavBar() {
     return(
         <nav className={styles.navbar}>
             <Container>
-                <Link to='/' className={styles.slogan}> <p>Pet Finder</p> </Link>
+                <Link to='/' className={styles.slogan}>
+                    <p>Pet Finder</p> 
+                    <img src={logo} alt="" /> 
+                </Link>
                 <ul className={styles.list}>
                     <li><Link to="/animais">Animais</Link></li>
                     <li><Link to="/contato">Contato</Link></li>
