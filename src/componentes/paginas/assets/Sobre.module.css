@@ -1,0 +1,13 @@
+.integrantes {
+    display: flex;
+    justify-content: center;
+}
+
+.card_integrante {
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
